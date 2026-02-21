@@ -1,0 +1,35 @@
+{
+  "name": "@ktmcp/betfair",
+  "version": "1.0.0",
+  "description": "MCP server for Betfair: Exchange Streaming API",
+  "type": "module",
+  "bin": {
+    "mcp-betfair": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod +x dist/index.js",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "api",
+    "api"
+  ],
+  "author": "KTMCP",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "typescript": "^5.7.2"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ktmcp/betfair.git"
+  }
+}
